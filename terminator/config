@@ -1,0 +1,24 @@
+[global_config]
+  focus = mouse
+  enabled_plugins = TerminalShot, LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 0.64
+    background_type = transparent
+    cursor_color = "#73d216"
+    cursor_color_fg = False
+    font = Tlwg Typewriter Bold 13
+    foreground_color = "#75bf3f"
+    show_titlebar = False
+    palette = "#282828:#cc241d:#73d216:#d79921:#34e2e2:#b16286:#ffffff:#a89984:#928374:#fb4934:#34e2e2:#fabd2f:#83a598:#d3869b:#ffffff:#ebdbb2"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
